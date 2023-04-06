@@ -12,7 +12,7 @@ def open_image(image_path):
         img.show()
 
 def main():
-    parser = ArgumentParser(description="Generative-Al: Generate a random Al Roker image.")
+    parser = ArgumentParser(description="Generative-Al: Generate a random Al image.")
     parser.add_argument("command", help="command to run. use generate to see generative Al in action")
     args = parser.parse_args()
 
